@@ -1,5 +1,13 @@
-package cn.yanghuisen.gateway.dto;/** 
+package cn.yanghuisen.gateway.dto;
+
+import cn.yanghuisen.gateway.entity.RouteFilters;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+/**
  * @author Y
- * 
- */public class RouteFiltersDTO {
+ */
+@EqualsAndHashCode(callSuper = true)
+@Data
+public class RouteFiltersDTO extends RouteFilters {
 }

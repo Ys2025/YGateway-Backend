@@ -84,8 +84,8 @@ public enum RoutePredicateType {
         this.desc = desc;
     }
 
-    public static RoutePredicateType getRoutePredicateType(String code){
-        switch (code){
+    public static RoutePredicateType getRoutePredicateType(String key){
+        switch (key){
             case "path":
                 return Path;
             case "query":

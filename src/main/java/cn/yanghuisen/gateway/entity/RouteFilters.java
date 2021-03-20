@@ -10,7 +10,7 @@ import lombok.EqualsAndHashCode;
  */
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class RoutePredicate extends BaseEntity {
+public class RouteFilters extends BaseEntity {
 
     /**
      * RouteObj
@@ -21,10 +21,10 @@ public class RoutePredicate extends BaseEntity {
     /**
      * Key
      */
-    private String predicateKey;
+    private String filtersKey;
 
     /**
      * Value
      */
-    private String predicateValue;
+    private String filtersValue;
 }
